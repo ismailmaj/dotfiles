@@ -1,0 +1,14 @@
+[user]
+	name = ismailmaj
+	email = ismailmaj98@gmail.com
+[help]
+	autocorrect = 1
+[diff]
+	algorithm = patience
+[alias]
+	c = commit
+	l = log --all --decorate --oneline --graph
+	a = add
+	s = status
+	p = push --force-with-lease
+

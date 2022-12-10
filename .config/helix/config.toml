@@ -1,0 +1,5 @@
+theme = "nightfox_mod"
+
+[editor]
+line-number = "relative"
+mouse = false
