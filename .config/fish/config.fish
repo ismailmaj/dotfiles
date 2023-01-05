@@ -19,3 +19,7 @@ abbr -a d dolphin
 abbr -a s rg
 abbr -a sf "rg --files --hidden . 2>/dev/null | rg" 
 abbr -a config "/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+
+function nth
+    sed -n -e $argv[1]p 
+end
